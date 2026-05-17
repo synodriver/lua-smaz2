@@ -6,7 +6,7 @@
 
 #if defined(_WIN32) || defined(_WIN64)
 #define DLLEXPORT __declspec(dllexport)
-#elif
+#else
 #define DLLEXPORT
 #endif /* _WIN32 */
 
